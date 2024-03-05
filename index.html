@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculation</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <div class="wrapper">
+
+    <div class="login-box">
+      <form action="">
+        <h2>Age Calculation</h2>
+
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="mail"></ion-icon>
+          </span>
+          <input type="text" id="year" required>
+          <label>Enter Your year Day.</label>
+        </div>
+
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="lock-closed"></ion-icon>
+          </span>
+          <input type="text" id="month" required>
+          <label>Enter Your Month Day</label>
+        </div>
+
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="lock-closed"></ion-icon>
+          </span>
+          <input type="text" id="Day" required>
+          <label>Enter Your Month Day</label>
+        </div>
+
+        <button type="button" onclick="Age_calculation()">Calculation</button>
+        <div class="output">
+          <p id="output"></p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
